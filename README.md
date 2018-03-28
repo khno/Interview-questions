@@ -61,5 +61,13 @@
   （省略，自己去了解）
   
 ps：主要记住原型链继承、构造函数继承和他们相结合的组合式继承。
+</br></br></br>
 
-  
+#### WEB应用从服务器主动推送Data到客户端有那些方式?
+  1、html5 websoket
+  2、Websocke通过Flash
+  3、XHR长时间连接
+  4、XHR Multipart Streaming
+  5、不可见的 iframe
+  6、< script>标签的长时间连接(可跨域)
+</br></br></br>
