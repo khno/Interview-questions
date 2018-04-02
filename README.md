@@ -84,3 +84,9 @@ ps：主要记住原型链继承、构造函数继承和他们相结合的组合
 
 #### 说说rem与em的区别
 rem是根据根的font-size变化，em是根据父级的font-size变化
+</br></br></br>
+
+#### 页面导入样式时，使用link和@import有什么区别？
+- link属于HTML标签，除了加载CSS外，还能用于定义RSS，定义rel连接属性等作用；而@import是CSS提供，只能加载CSS;
+- 页面被加载的时，link会同时被加载，而@import引用的CSS会等到页面被加载完再加载；
+</br></br></br>
