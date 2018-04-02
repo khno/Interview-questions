@@ -83,7 +83,7 @@ ps：主要记住原型链继承、构造函数继承和他们相结合的组合
 </br></br></br>
 
 #### 说说rem与em的区别
-rem是根据根的font-size变化，em是根据父级的font-size变化
+- rem是根据根的font-size变化，em是根据父级的font-size变化
 </br></br></br>
 
 #### 页面导入样式时，使用link和@import有什么区别？
