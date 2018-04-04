@@ -104,6 +104,8 @@ ps：主要记住原型链继承、构造函数继承和他们相结合的组合
 - rebase 并没有进行合并操作，只是提取了当前分支的修改，将其复制在了目标分支的最新提交后面
 - rebase 的提交历史反映了项目过程中发生了什么，关注点在开发过程上面
 - merge 与 rebase 都是非常强大的分支整合命令，没有优劣之分，使用哪一个应由项目和团队的开发需求决定
+![image](https://raw.githubusercontent.com/khno/Interview-questions/master/imgSrc/git_merge.jpeg)
+![image](https://raw.githubusercontent.com/khno/Interview-questions/master/imgSrc/git_rebase.jpeg)
 
 
 
