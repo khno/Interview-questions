@@ -106,6 +106,11 @@ ps：主要记住原型链继承、构造函数继承和他们相结合的组合
 - merge 与 rebase 都是非常强大的分支整合命令，没有优劣之分，使用哪一个应由项目和团队的开发需求决定
 ![image](https://raw.githubusercontent.com/khno/Interview-questions/master/imgSrc/git_merge.jpeg)
 ![image](https://raw.githubusercontent.com/khno/Interview-questions/master/imgSrc/git_rebase.jpeg)
+</br></br></br>
+
+### call和apply作用和区别？
+- 作用都是为了改变函数运行时上下文而存在的。即改变函数体内部this的指向。说白点，a有xx方法，b没有。b可以问a借！
+- 区别：接受参数方式不一样。call接受的是连续参数，apply接受的是数组参数。
 
 
 
