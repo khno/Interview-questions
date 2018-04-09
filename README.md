@@ -98,7 +98,7 @@ ps：主要记住原型链继承、构造函数继承和他们相结合的组合
 - HTML 标签（类型）选择器的权值为 1
 </br></br></br>
 
-### git merge 和 git rebase区别
+### git merge 和 git rebase区别？
 - merge 是一个合并操作，会将两个分支的修改合并在一起，默认操作的情况下会提交合并中修改的内容
 - merge 的提交历史忠实地记录了实际发生过什么，关注点在真实的提交历史上面
 - rebase 并没有进行合并操作，只是提取了当前分支的修改，将其复制在了目标分支的最新提交后面
@@ -113,7 +113,28 @@ ps：主要记住原型链继承、构造函数继承和他们相结合的组合
 - 区别：接受参数方式不一样。call接受的是连续参数，apply接受的是数组参数。
 
 
-
+### new操作符具体干了什么呢?
+- Javascript的new关键字主要的作用是继承
+new一共经历4个阶段
+- 1、创建一个空对象
+```
+ var obj = new Object();
+```
+- 2、设置原型链
+  此时便建立了obj对象的原型链
+```
+  obj._proto_ = Object.prototype;
+```
+- 3、让Func的this指向obj，并执行Func函数体
+```
+  Object.call(obj);
+```
+- 4、判断Func的返回值类型
+  如果是值类型，返回obj； 
+  如果是引用类型，返回这个引用类型的对象。
+```
+  return typeof result === 'obj'? result : obj;
+```
 
 
 
