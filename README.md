@@ -159,5 +159,10 @@ Websocket是一个持久化的协议，相对于HTTP这种非持久的协议来�
 
 ###  sessionStorage和localstorage能跨域拿到吗？（比如在www.baidu.com设置的值能在m.baidu.com能拿到吗？）
 - localStorage会跟cookie一样受到跨域的限制，会被document.domain影响
+</br></br></br>
 
-
+### 说出几种数据绑定的实现方式？
+- 发布者-订阅者模式（backbone.js）
+- 脏值检查（angular.js） 
+- 数据劫持
+   tips：vue.js 数据劫持+发布订阅模式/
