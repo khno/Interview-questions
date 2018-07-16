@@ -1,4 +1,4 @@
-# Interview-questions（每日一题）
+# Interview-questions
 ### 函数柯里化 (curry)
 直接看概念，柯里化是把一个多参函数转换为一个嵌套的一元函数的过程
 
